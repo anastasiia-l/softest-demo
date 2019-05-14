@@ -89,6 +89,13 @@
     .name {
       line-height: 2rem !important;
     }
+      @media only screen and (min-width: 768px) {
+          .avatar {
+              object-fit: cover;
+              height: 16rem;
+              width: 100%;
+          }
+      }
   </style>
 
 </head>
@@ -107,9 +114,12 @@
       <span class="background dark" style="background-image:url('https://source.unsplash.com/ieic5Tq8YMk/')"></span>
       <!--.wrap = container (width: 90%) -->
       <div class="wrap">
+          <img class="whitelogo" src="static/images/IT%20Academy.png" alt="academy" style="height: 6rem; margin-bottom: 3rem;">
+          <br/>
         <p class="text-landing" style="font-size: 4rem;"><strong>WebUI-Python</strong></p>
         <p class="text-symbols">* * *</p>
         <h1 class="text-shadow"><strong>DEMO</strong></h1>
+
       </div>
       <!-- .end .wrap -->
     </section>
@@ -121,10 +131,10 @@
           <li class="team">
             <a href="#">
               <figure>
-                <img alt="Thumbnail" src="https://source.unsplash.com/6anudmpILw4/800x600">
+                <img alt="Thumbnail" src="static/images/photo_2019-05-14_17-38-53.jpg" class="avatar">
                 <figcaption>
                   <h2 class="name">Dmytro Honcharov</h2>
-                  <p>Master of nothing</p>
+                  <p>JS hater</p>
                 </figcaption>
               </figure>
             </a>
@@ -132,10 +142,10 @@
           <li class="team">
             <a href="#">
               <figure>
-                <img alt="Thumbnail" src="https://source.unsplash.com/6anudmpILw4/800x600">
+                <img alt="Thumbnail" src="static/images/photo_2019-05-14_18-38-51.jpg" class="avatar">
                 <figcaption>
                   <h2 class="name">Oleksii Kutsenko</h2>
-                  <p>Master of nothing</p>
+                  <p>PhD of mems</p>
                 </figcaption>
               </figure>
             </a>
@@ -143,10 +153,10 @@
           <li class="team">
             <a href="#">
               <figure>
-                <img alt="Thumbnail" src="https://source.unsplash.com/6anudmpILw4/800x600">
+                <img alt="Thumbnail" src="static/images/photo_2019-05-14_17-59-34.jpg" class="avatar">
                 <figcaption>
                   <h2 class="name">Anastasiia Leshkevych</h2>
-                  <p>Master of nothing</p>
+                  <p>Frontend girl</p>
                 </figcaption>
               </figure>
             </a>
@@ -154,10 +164,10 @@
           <li class="team">
             <a href="#">
               <figure>
-                <img alt="Thumbnail" src="https://source.unsplash.com/6anudmpILw4/800x600">
+                <img alt="Thumbnail" src="static/images/photo_2019-05-14_17-38-12.jpg" class="avatar">
                 <figcaption>
                   <h2 class="name">Dmytro Ruzniaiev</h2>
-                  <p>Master of nothing</p>
+                  <p>DeWops Boiii</p>
                 </figcaption>
               </figure>
             </a>
@@ -165,10 +175,10 @@
           <li class="team">
             <a href="#">
               <figure>
-                <img alt="Thumbnail" src="https://source.unsplash.com/6anudmpILw4/800x600">
+                <img alt="Thumbnail" src="static/images/photo_2019-05-14_18-10-20.jpg" class="avatar">
                 <figcaption>
                   <h2 class="name">Maryna Sirenko</h2>
-                  <p>Master of nothing</p>
+                  <p>Selskaya girl</p>
                 </figcaption>
               </figure>
             </a>
@@ -177,6 +187,14 @@
       </div>
       <!-- .end .wrap -->
     </section>
+      <section>
+          <div class="wrap">
+              <h3 class="aligncenter" >Scan me</h3>
+              <img class="aligncenter size-40" src="static/images/qr-code%20(1).png" alt="QRcode" style="margin-top: 0;">
+
+          </div>
+          <!-- .end .wrap -->
+      </section>
       <section class="fullscreen bg-blue aligncenter">
           <div class="embed dark">
               <video autoplay loop muted >
@@ -228,7 +246,7 @@
                 </svg>
                 CV's storage
               </h2>
-              ...
+                A convenient way to store CV's
             </div>
           </li>
           <li>
@@ -239,7 +257,7 @@
                 </svg>
                 Code runner
               </h2>
-              ...
+                Syntax highlighting is already built-in
             </div>
           </li>
           <li>
@@ -250,7 +268,7 @@
                 </svg>
                 Track course status
               </h2>
-              ...
+                Track your progress
             </div>
           </li>
           <li>
@@ -261,7 +279,7 @@
                 </svg>
                 Hotkeys
               </h2>
-              ...
+                Shortcut keys for advanced using
             </div>
           </li>
         </ul>
@@ -477,16 +495,13 @@
       </section>
       <section class="bg-apple aligncenter">
           <h2 class="text-shadow">Thanks for your attention</h2>
+          <div>
 
-      </section>
-      <section>
-          <div class="wrap">
-              <h3 class="aligncenter" >Scan me</h3>
-              <img class="aligncenter size-40" src="static/images/qr-code%20(1).png" alt="QRcode" style="margin-top: 0;">
-
+              <img class="whitelogo" src="static/images/Stydy%20hard.png" alt="study hard"  style="height: 6rem;">
           </div>
-          <!-- .end .wrap -->
+
       </section>
+
 
 
 
