@@ -90,12 +90,18 @@
       line-height: 2rem !important;
     }
       @media only screen and (min-width: 768px) {
+          * { cursor:none; }
           .avatar {
               object-fit: cover;
               height: 16rem;
               width: 100%;
+
+          }
+          .git-button {
+              visibility: hidden;
           }
       }
+
   </style>
 
 </head>
@@ -292,7 +298,7 @@
           <h1>We at</h1>
           <img class="blacklogo fadeIn" src="static/images/github-logo.png" >
           <p>
-            <a href="https://github.com/kh-026-webui-python/" class="button ghost" title="Website">Open site &rsaquo;</a>
+            <a  href="https://github.com/kh-026-webui-python/" class="button ghost git-button" title="Website">Open site &rsaquo;</a>
           </p>
         </div>
 
